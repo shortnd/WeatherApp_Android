@@ -29,12 +29,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val searchTerm = findViewById<EditText>(R.id.enter_your_city_edit_text)
+        val searchTerm = findViewById<EditText?>(R.id.enter_your_city_edit_text)
 
         val searchWeatherButton = findViewById<Button>(R.id.search_city_button)
         searchWeatherButton.setOnClickListener {
             val goToWeatherListActivity = Intent(this, WeatherListActivity::class.java)
-            goToWeatherListActivity.putExtra("searchTerm", searchTerm.text.toString())
+            goToWeatherListActivity.putExtra("searchTerm", searchTerm?.text.toString())
             startActivity(goToWeatherListActivity)
         }
     }

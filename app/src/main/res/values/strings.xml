@@ -3,10 +3,12 @@
 
     <string name="weather">Weather</string>
 
-    <string name="enter_your_city">Enter Your City!</string>
+    <string name="enter_your_city">Enter Your Zip!</string>
 
     <string name="search_city">Search City</string>
     <string name="sunny_image">Sunny Image</string>
     <string name="umbrella_image">Umbrella Image</string>
     <string name="cold_temperature_image">Cold Temperature Image</string>
+    <string name="high">High:</string>
+    <string name="low">Low:</string>
 </resources>

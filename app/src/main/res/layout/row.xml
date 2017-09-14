@@ -68,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
-        android:text="High:"
+        android:text="@string/high"
         app:layout_constraintBottom_toTopOf="@+id/weather_low_text_view"
         app:layout_constraintStart_toStartOf="@+id/weather_low_text_view"
         app:layout_constraintTop_toTopOf="parent" />
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:text="Low:"
+        android:text="@string/low"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/weather_low_number_text_view"
         app:layout_constraintTop_toBottomOf="@+id/weather_high_text_view" />
